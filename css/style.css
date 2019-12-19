@@ -1,42 +1,111 @@
 html,body{
     width: 100%;
+    height: 100%;
     margin: 0;
 }
+*{
+    box-sizing: border-box;
+}
 .section_first{
-    width: 100%;
+    width: 80%;
     margin: auto;
 }
-.section_first_div{
-    width: 90%;
-    margin: auto;
-    padding: 30px;
-    overflow: auto;
+.logo{   
+    display: inline-block;
 }
-.section_first_div1{
-    width: 30%;
-    margin: auto;
-    padding: 10px;
-    float: left;
+.logodiv{
+    display: inline-block;
+    padding: 20px;
 }
-.section_first_div2{
+.logodiv-link{
+    display: inline-block;
+    padding: 20px;
+}
+.menu{
     width: 50%;
-    padding: 10px;
-    float: left;
+    display: inline-block;
+    padding: 0px;
+    text-align: center;
     overflow: auto;
 }
-.section_first_div2_1{
-    width: 20%;
+ul{
+   margin: 0;
+   padding: 0;
+}
+.menu-item{
+   display: inline-block;
+   padding: 0px 10px;
+}
+.menu-link{
+    
+    display: inline-block;
+}
+.icon{
+    width: 30%;
+    display: inline-block;
+    overflow: auto;
+}
+.icon-ul{
+    float: right;
+}
+.icom-item{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.item-link{
+    display: inline-block;
+}
+.section_second{
+    width: 100%;
     height: 100%;
-    float: left;
+    margin: 0;
 }
-.section_first_div3{
-    width: 20%;
-    padding: 10px;
-    float: left;
-    overflow: auto;
+.banner{
+    height: 100%;
+    position: relative;
+    background-image: url(../image/banner.webp);
+    background-size: cover;
+    background-position: center;
 }
-.section_first_div3_1{
-    width: 25%;
+.section_second_center{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.section_second_center_text1{
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.white{
+    color: white;
+}
+.section_second_center_text2{
+    text-align: left;
+    font-size: 48px;
+    color: lawngreen;
+}
+.section_second_center_text3{
+    text-align: left;
+    font-size: 22px;
+    color: white;
+    
+}
+.section_second_center_button{
+    width: 250px;
     height: 100px;
-    float: left;
+    margin: 0;
+    padding:25px 0px;
+}
+.section_second_center_button1{
+    width: 100%;
+    height: 100%;
+    background-color: lawngreen;
+}
+.button_text{
+    padding: 15px;
+    text-align: center;
+    color: white;
 }
