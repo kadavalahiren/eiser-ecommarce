@@ -7,7 +7,7 @@ html,body{
     box-sizing: border-box;
 }
 .section_first{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .logo{   
@@ -84,8 +84,10 @@ ul{
 }
 .section_second_center_text2{
     text-align: left;
-    font-size: 48px;
     color: lawngreen;
+}
+h1{
+    font-size: 56px;
 }
 .section_second_center_text3{
     text-align: left;
@@ -111,12 +113,10 @@ ul{
 }
 .section_third{
     width: 100% ;
-    padding: 10px;
 }
 .section_third_div{
-    width: 90%;
-    margin: auto;
-    padding: 10px;
+     width: 90%;
+     margin: auto;
      overflow: auto;
 }
 .third_div_icons{
@@ -124,10 +124,12 @@ ul{
     padding: 20px;
     float: left;
     margin: auto;
+    text-align: center;
 }
 .third_icons{
     width: 25%;
-    margin: 30%;
+    margin: auto;
+    display: inline-block;
 }
 .third_text1{
     width: 100%;
@@ -140,13 +142,12 @@ ul{
     padding: 10px;
 }
 .section_fourth{
-   width: 100%;
-    padding: 100px;   
+   width: 100%;   
 }
 .section_fourth_div1{
     width: 50%;
     margin: auto;
-    padding: 50px;
+    padding: 100px;
 }
 .fourth_div1_text1{
     padding: 10px;
@@ -160,15 +161,22 @@ ul{
 }
 .section_fourth_div2{
     width: 100%;
+    margin:50px auto;
     overflow: auto;
 }
+.section_fourth_div2_1{
+    width: 90%;
+    margin: auto;
+}
 .fourth_div2_image{
+    width: 33.33%;
     padding: 10px;
     margin: auto;
     float: left;
     
 }
 .fourth_div2_image1{
+    padding: 10px;
     margin: auto;
 }
 .fourth_image1{
@@ -198,14 +206,13 @@ ul{
 .section_fifth{
     width: 100%;
     height: 550px;
-    padding: 10px;
     position:relative;
 }
 .section_fifth_div1{
-    width:90%;
+    width:100%;
     height:100%;
-    padding: 10px;
-    margin: auto;
+    
+    margin:auto;
 }
 .fifth_image1{
     width: 100%;
@@ -274,8 +281,7 @@ ul{
 }
 .section_sixth_div_2_1{
     width: 50%;
-    padding: 40px;
-    margin: 90px auto;
+    margin: auto;
     float: left;
 }
 .sixth_div_2_text_01{
@@ -289,8 +295,13 @@ ul{
     padding: 10px;
 }
 .sixth_div_2_image_01{
-    padding: 5px;
-    margin: 30px auto;
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/new-product1.png);
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
 }
 .sixth_image{
     padding: 10px;
@@ -389,7 +400,7 @@ ul{
 }
 .price7{
     overflow: auto;  
-    padding: 5px;
+    padding: 5px; 
 }
 .new_price7{
     font-size: 24px;
@@ -428,12 +439,12 @@ ul{
 }
 .eight_div_second_1{
     width: 100%;
-    height: 480px;
     margin: auto; 
     padding: auto auto 100px auto;
     overflow: auto;
 }
 .eight_div_second{
+    width: 33.33%;
     padding: 5px;
     float: left;
 }
@@ -462,7 +473,7 @@ ul{
     
 }
 .eight_text3{
-     padding: 5px;
+    padding: 5px;
     font-size: 24px;
 }
 .eight_text4{
